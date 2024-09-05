@@ -8,18 +8,18 @@ import {
 } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./routes/Home";
-import Professions from "./routes/Professions";
 import Mentors from "./routes/Mentors";
-import Connection from "./routes/Connection";
 import "./root.scss";
+import Resources from "./routes/Resources";
+import Contact from "./routes/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
       <Route path="mentors" element={<Mentors />} />
-      <Route path="professions" element={<Professions />} />
-      <Route path="connection" element={<Connection />} />
+      <Route path="resources" element={<Resources />} />
+      <Route path="contact" element={<Contact />} />
     </Route>
   )
 );

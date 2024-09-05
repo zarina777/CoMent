@@ -15,12 +15,12 @@ const Navs = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="professions">
+        <NavLink activeClassName="active" to="resources">
           Resources
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="connection">
+        <NavLink activeClassName="active" to="contact">
           Contact
         </NavLink>
       </li>

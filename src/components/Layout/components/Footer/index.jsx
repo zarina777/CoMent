@@ -14,13 +14,13 @@ const Footer = () => {
           <Link to="mentors">Mentors</Link>
         </li>
         <li>
-          <Link to="professions">Resources</Link>
+          <Link to="resources">Resources</Link>
         </li>
         <li>
-          <Link to="connection">Contact</Link>
+          <Link to="contact">Contact</Link>
         </li>
         <li>
-          <Link to="connection">Help</Link>
+          <Link to="help">Help</Link>
         </li>
       </ul>
       <Container className={cn.Container}>
