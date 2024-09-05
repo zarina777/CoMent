@@ -6,11 +6,16 @@
   .info {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
+    max-width: 700px;
+    width: 100%;
     .info_top {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
       h1 {
         margin-bottom: 10px;
-        font-size: 43px;
+        font-size: 45px;
         font-weight: 600;
         line-height: 110%;
         color: #282828;
@@ -20,6 +25,7 @@
         font-weight: 400;
         line-height: 130%;
         color: #85847f;
+        max-width: 500px;
       }
     }
     .info_bottom {
@@ -67,7 +73,7 @@
         }
       }
       .trial_btn {
-        padding: 28px 40px;
+        padding: 28px 38px;
         border-radius: 15px;
         text-align: center;
         background: linear-gradient(180deg, #7dc7bb -33.33%, #18c4f3 138.27%);

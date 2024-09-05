@@ -10,7 +10,7 @@
     align-items: center;
     padding: 20px;
     .logo {
-      max-width: 146px;
+      max-width: 100px;
     }
     .controls {
       display: flex;
@@ -19,20 +19,21 @@
       gap: 30px;
       .singup {
         border: 1px solid #10c5f8;
-        background-color: transparent;
+        background-color: #10c5f8;
         padding: 11px 16px;
         border-radius: 8px;
         font-weight: 600;
         font-size: 16px;
         cursor: pointer;
         transition: all 0.45s;
+
         a {
-          color: #10c5f8;
+          color: #fff;
         }
         &:hover {
-          background-color: #10c5f8;
+          background-color: #fff;
           a {
-            color: #fff;
+            color: #10c5f8;
           }
         }
       }

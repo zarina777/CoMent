@@ -1,0 +1,49 @@
+.Card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  span {
+    color: #fff;
+    align-self: flex-end;
+    font-weight: 700;
+  }
+  .info {
+    background-color: rgba(0, 0, 0, 0.365);
+    width: 80%;
+    padding: 8px 13px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h3 {
+      color: #18c4f3de;
+    }
+    p {
+      color: aliceblue;
+      font-size: 12px;
+    }
+    button {
+      background-color: transparent;
+      width: 100%;
+      border: 1px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 16px;
+      transition: all 0.5s;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.731);
+        color: black;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import Container from "../../components/Container";
 import Banner from "./components/Banner";
-import Courses from "./components/Courses";
+import Mentors from "./components/Mentors";
 import cn from "./style.module.scss";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <div className={cn.Home}>
       <Container>
         <Banner />
-        <Courses />
+        <Mentors />
       </Container>
     </div>
   );

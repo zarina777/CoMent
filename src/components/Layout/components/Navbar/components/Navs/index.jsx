@@ -5,16 +5,24 @@ const Navs = () => {
   return (
     <ul className={cn.Navs}>
       <li>
-        <NavLink activeClassName="active" to="/">Bosh sahifa</NavLink>
+        <NavLink activeClassName="active" to="/">
+          Homepage
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="mentors">Mentorlar</NavLink>
+        <NavLink activeClassName="active" to="mentors">
+          Mentors
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="professions">Kasblar</NavLink>
+        <NavLink activeClassName="active" to="professions">
+          Resources
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="connection">Bog'lanish</NavLink>
+        <NavLink activeClassName="active" to="connection">
+          Contact
+        </NavLink>
       </li>
     </ul>
   );
