@@ -42,12 +42,15 @@ const Banner = () => {
           <button className={cn.trial_btn}>30-days trial</button>
         </div>
       </div>
-      <div className={cn.video}>
+      <div
+        style={{ backgroundImage: `url("./video.jpg")` }}
+        className={cn.video}
+      >
         <div className={cn.cover}>
           <div className={cn.circle}>
             <i class="fa-solid fa-play"></i>
           </div>
-          <div style={{ backgroundImage: `url("./video.jpg")`}} className={cn.video_info}>
+          <div className={cn.video_info}>
             <p>Session Preview </p>
             <p>Discover how you interact with exports...</p>
           </div>

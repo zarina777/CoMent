@@ -12,6 +12,7 @@ import Mentors from "./routes/Mentors";
 import "./root.scss";
 import Resources from "./routes/Resources";
 import Contact from "./routes/Contact";
+import { ContextProvide } from "./routes/Mentors/components/context";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,8 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <ContextProvide>
+      <RouterProvider router={router}></RouterProvider>
+    </ContextProvide>
   </StrictMode>
 );

@@ -1,7 +1,21 @@
+import clsx from "clsx";
+import { useContext } from "react";
+import { ContextCategory } from "../context";
 import cn from "./style.module.scss";
 
-const Categories = () => {
-  return <div className={cn.Categories}></div>;
+const Category = ({ name, onClick }) => {
+  const { categoryOn } = useContext(ContextCategory);
+  return (
+    <button
+      onClick={onClick}
+      className={clsx(
+        cn.Category,
+        categoryOn == name.toLowerCase() ? cn.on : ""
+      )}
+    >
+      {name}
+    </button>
+  );
 };
 
-export default Categories;
+export default Category;
