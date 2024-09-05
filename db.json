@@ -1,0 +1,207 @@
+{
+  "mentors": [
+    {
+      "name": "Azimjon",
+      "surname": "Pulatov",
+      "jobs": "Software Engineer",
+      "works": [
+        "Google",
+        "Amazon",
+        "Meta"
+      ],
+      "description": "Computer engineer with 7 years of experience. Currently working as a Software Engineer at Google Cloud. Worked at Amazon, Meta (Facebook) and Super Dispatch.",
+      "img": [
+        "./images/AzimjonPulatov.jpg"
+      ],
+      "type": "software"
+    },
+    {
+      "name": "Otabek",
+      "surname": "Nurmatov",
+      "jobs": "Software Engineer",
+      "works": [
+        "U-EDU",
+        "Ex-Mobal.io"
+      ],
+      "description": "22-year-old Software Engineer from Uzbekistan, currently living in the vibrant city of Warsaw, Poland.",
+      "img": [
+        "./images/OtabekNurmatov.jpg"
+      ],
+      "type": "software"
+    },
+    {
+      "name": "Diyorbek",
+      "surname": "Sadullaev",
+      "jobs": "Software Engineer",
+      "works": [
+        "Pinterest",
+        "Super Dispatch",
+        "PeriPlus AG"
+      ],
+      "description": "Software developer with 6 years of professional experience in building web applications. Primary area of expertise is frontend development, particularly React JS and React Native applications. Usually work with the JavaScript/TypeScript ecosystem, however, love coding in C++.",
+      "img": [
+        "./images/DiyorbekSadullaev.jpg"
+      ],
+      "type": "software"
+    },
+    {
+      "name": "Henry",
+      "surname": "Tseng",
+      "jobs": "DevOps Engineer",
+      "works": [
+        "Swisscom",
+        "Proton",
+        "Meta"
+      ],
+      "description": "As a DevOps Engineer at Swisscom, working on the 5G core, applying skills in Golang, Kubernetes, and GitOps to deliver scalable and reliable solutions. Joined Swisscom in January 2024, after graduating with a master's in computer science at EPFL.",
+      "img": [
+        "./images/ChunHungTseng.jpg"
+      ],
+      "type": "software"
+    },
+    {
+      "name": "Zafar",
+      "surname": "Hoshimov",
+      "jobs": "Businessman",
+      "owner": [
+        "Korzinka.uz",
+        "Korzinka Diskont"
+      ],
+      "description": "Uzbek entrepreneur, founder of Anglesey Food LLC, which includes Korzinka.uz, Korzinka Discount, Smart stores",
+      "img": [
+        "./images/ZafarXoshimov.jpg",
+        "./images/ZafarXoshimov2.jpg"
+      ],
+      "type": "business"
+    },
+    {
+      "name": "Jahongir",
+      "surname": "Ortiqxo'jayev",
+      "jobs": "Businessman",
+      "owner": [
+        "Akfa",
+        "Artel",
+        "Mediapark",
+        "Atlas",
+        "EcoBozor",
+        "Zo'r TV",
+        "Avalon"
+      ],
+      "description": "Graduated from Tashkent State University of Economics in 1996. At the age of 17, Ortiqkhojayev opened his first enterprise - 'Jahongir' LLC, a barber shop and a shoe store.",
+      "img": [
+        "./images/JahongirOrtiqxojayev.jpg"
+      ],
+      "type": "business"
+    },
+    {
+      "name": "Murod",
+      "surname": "Nazarov",
+      "jobs": "Businessman",
+      "owner": [
+        "Murad Buildings",
+        "Franchising invest",
+        "Avalon group",
+        "ISA NABI"
+      ],
+      "description": "Murod Nazarov started his career as a program assistant at the JISA office in Uzbekistan. He worked at this position until 2003 and then established his own company. Throughout 2003–2017, Nazarov founded a number of companies in the investment and construction business.",
+      "img": [
+        "./images/MurodNazarov.jpg",
+        "./images/MurodNazarov2.jpg"
+      ],
+      "type": "business"
+    },
+    {
+      "name": "Hasan",
+      "surname": "Mamasaidov",
+      "jobs": "Businessman",
+      "owner": [
+        "MFaktor",
+        "Dekos.uz",
+        "IMAN shop"
+      ],
+      "description": "Hasan Mamasaidov does not limit his business activities only to commerce, but also pays great attention to the development of entrepreneurial culture in Uzbekistan and support of young entrepreneurs. He shares his experience and knowledge with others by participating in interviews and events organized for entrepreneurs.",
+      "img": [
+        "./images/HasanMamasaidov.jpg",
+        "./images/HasanMamasaidov.jpg"
+      ],
+      "type": "business"
+    },
+    {
+      "name": "Bekzod",
+      "surname": "Mirahmedov",
+      "jobs": "Teacher",
+      "IELTSscore": 9,
+      "description": "The first IELTS 9.0 holder in Uzbekistan, the founder of ieltszone.uz and a 15-year experience teacher with an international CELTA certificate",
+      "img": [
+        "./images/BekzodMirahmedov.jpg"
+      ],
+      "type": "ielts"
+    },
+    {
+      "name": "Muhammadali",
+      "surname": "Sodiqov",
+      "jobs": "Teacher",
+      "IELTSScore": 9,
+      "description": "Muhammadali Sodikov is the youngest person in Uzbekistan known to have achieved a maximum score of 9 on the IELTS exam. He achieved a score of 9 in the Listening, Speaking, and Reading sections of the exam, and an impressive score of 8 in the Writing section.",
+      "img": [
+        "./images/MuhammadAli.jpg"
+      ],
+      "type": "ielts"
+    },
+    {
+      "name": "Dildora",
+      "surname": "Atajanova",
+      "jobs": "agricoach",
+      "owner": [
+        "Teodora_goods.uz",
+        "dalatek.uz"
+      ],
+      "description": "",
+      "img": [
+        "./images/DildoraAtajanova.jpg"
+      ],
+      "type": "agricoach"
+    },
+    {
+      "name": "Rozaliya",
+      "surname": "Gabdulhakova",
+      "jobs": "psychologist",
+      "owner": [
+        "psixologikkurslar.uz"
+      ],
+      "description": "Psychologist, expert in child rearing and family relations.",
+      "img": [
+        "./iamges/RozaliyaGabdulhakova.jpg"
+      ],
+      "type": "psychologist"
+    },
+    {
+      "name": "Umida",
+      "surname": "Zakirova",
+      "jobs": "psychologist",
+      "owner": [
+        "Legolang Academy",
+        "psixoprofimarkazi"
+      ],
+      "description": "Psychologist and child education expert with 12 years of experience",
+      "img": [
+        "./images/UmidaZakirova.jpg"
+      ],
+      "type": "psychologist"
+    },
+    {
+      "name": "Abdulaziz",
+      "surname": "Sharopov",
+      "jobs": "CareerCoach",
+      "owner": [
+        "tashschool.org",
+        "nuqtalar"
+      ],
+      "description": "Senior at Tashkent International School with a $90,000 scholarship, pursuing the rigorous International Baccalaureate Diploma Program. Recently, he received to Northwestern University in Qatar with fully funded tuition/accommodation, valuing at $260,000 over 4 years.",
+      "img": [
+        "./images/AbdulazizSharopov.jpg"
+      ],
+      "type": "careercoach"
+    }
+  ]
+}

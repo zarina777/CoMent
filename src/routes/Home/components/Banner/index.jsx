@@ -47,7 +47,7 @@ const Banner = () => {
           <div className={cn.circle}>
             <i class="fa-solid fa-play"></i>
           </div>
-          <div className={cn.video_info}>
+          <div style={{ backgroundImage: `url("./video.jpg")`}} className={cn.video_info}>
             <p>Session Preview </p>
             <p>Discover how you interact with exports...</p>
           </div>
