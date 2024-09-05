@@ -76,6 +76,11 @@
         font-weight: 600;
         color: #fff;
         line-height: 100%;
+        border: 2px solid #fff;
+        cursor: pointer;
+        &:hover {
+          background: #18c4f3de;
+        }
       }
     }
   }
