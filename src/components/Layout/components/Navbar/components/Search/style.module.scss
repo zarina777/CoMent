@@ -1,0 +1,20 @@
+.Search {
+  background-color: #f2fbfd;
+  padding: 13px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #10c5f8;
+  gap: 5px;
+  input {
+    background-color: transparent;
+    &::placeholder {
+      color: #514e4e95;
+      font-size: 16px;
+    }
+  }
+  i {
+    color: #514e4e95;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,57 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .logo {
+      max-width: 146px;
+    }
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      .singup {
+        border: 1px solid #10c5f8;
+        background-color: transparent;
+        padding: 11px 16px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.45s;
+        a {
+          color: #10c5f8;
+        }
+        &:hover {
+          background-color: #10c5f8;
+          a {
+            color: #fff;
+          }
+        }
+      }
+      span {
+        i {
+          font-size: 22px;
+          cursor: pointer;
+          padding: 9px;
+          border: 1px solid #10c5f8;
+          transition: all 0.45s;
+          border-radius: 7px;
+          color: hsl(193, 97%, 47%);
+
+          &:hover {
+            background-color: #10c5f8;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

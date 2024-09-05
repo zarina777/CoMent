@@ -1,0 +1,28 @@
+.Search {
+  background-color: #f2fbfd;
+  padding: 13px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #10c5f8;
+  gap: 5px;
+}
+.Search input {
+  background-color: transparent;
+}
+.Search input::-moz-placeholder {
+  color: rgba(81, 78, 78, 0.5843137255);
+  font-size: 16px;
+}
+.Search input:-ms-input-placeholder {
+  color: rgba(81, 78, 78, 0.5843137255);
+  font-size: 16px;
+}
+.Search input::placeholder {
+  color: rgba(81, 78, 78, 0.5843137255);
+  font-size: 16px;
+}
+.Search i {
+  color: rgba(81, 78, 78, 0.5843137255);
+  font-size: 15px;
+}/*# sourceMappingURL=style.module.css.map */
