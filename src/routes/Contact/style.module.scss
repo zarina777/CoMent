@@ -1,0 +1,129 @@
+.Contact {
+
+    max-width: 1310px;
+    width: 100%;
+    padding: 50px 20px;
+    margin: 0 auto;
+
+    h2 {
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 46px;
+        color: #282828;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .ContactWrapper {
+        padding: 50px;
+        border-radius: 20px;
+        background-color: #10C5F8;
+
+        .ContactWrapperInner {
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            background-color: #FFF;
+            border-radius: 20px;
+
+            hr {
+                height: 550px;
+                width: 3px;
+                background-color: #000000;
+                outline: none;
+                outline-style: none;
+            }
+
+            .Contacts {
+                font-size: 20px;
+                max-width: 300px;
+                width: 100%;
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+
+                li {
+                    border-bottom: 2px solid #000000;
+
+                    p {
+                        margin-bottom: 5px;
+                    }
+                }
+
+                img {
+                    width: 40px;
+                    margin-bottom: 10px;
+                }
+
+
+            }
+
+            .Form {
+                padding: 40px;
+
+                h4 {
+                    font-size: 38px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    margin-bottom: 30px;
+                }
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+
+                    input {
+                        max-width: 415px;
+                        width: 100%;
+                        padding: 16px 20px;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        color: #544E4E;
+                        border-radius: 15px;
+                        background-color: #10c6f842;
+                        margin-bottom: 20px;
+                    }
+
+                    textarea {
+                        max-width: 415px;
+                        width: 100%;
+                        padding: 16px 20px 200px 20px;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        color: #544E4E;
+                        border: none;
+                        background-color: #10c6f842;
+                        border-radius: 15px;
+                        margin-bottom: 50px;
+                        outline: none;
+                    }
+
+                    button {
+                        max-width: 203px;
+                        width: 100%;
+                        padding: 17px 42px;
+                        background-color: #10C5F8;
+                        color: #FFF;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        border-radius: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
