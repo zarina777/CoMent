@@ -1,3 +1,105 @@
-.Card{
-	
+.Card {
+  border: 1px solid #10c5f8;
+  box-shadow: 1px 1px 15px 0px #10c6f837;
+  border-radius: 5px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .private_profile {
+    display: flex;
+    gap: 20px;
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 15px 0px #00000059;
+      width: 100%;
+    }
+    .info {
+      padding: 15px 0 0 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      color: #282828;
+      h2 {
+        font-size: 30px;
+      }
+      .prof {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .p {
+        color: #10c5f8;
+      }
+      .likes {
+        display: flex;
+        gap: 20px;
+        .stars_wrap {
+          display: flex;
+          align-items: center;
+          justify-items: center;
+          gap: 9px;
+          i {
+            font-size: 21px;
+            color: yellow;
+          }
+        }
+        p {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+      .connection {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #282828;
+        border-bottom: 1px solid #282828;
+        padding: 20px 8px;
+        gap: 30px;
+        li {
+          color: #000987;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.7;
+          }
+          i {
+            font-size: 25px;
+          }
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    .skill {
+      background-color: #d9d9d9;
+      border-radius: 15px;
+      padding: 10px 48px;
+      font-size: 15px;
+    }
+  }
+  .order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hour {
+      display: flex;
+    }
+    .orderBtn {
+      margin-right: 40px;
+      background-color: #10c5f8;
+      color: #fff;
+      border: #10c5f8;
+      padding: 10px 18px;
+      border-radius: 5px;
+    }
+  }
 }
