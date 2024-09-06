@@ -1,7 +1,8 @@
 import cn from "./style.module.scss";
+import db from "../../../../../db.json";
 
 const Banner = () => {
-  let array = [1, 2, 3, 4, 5, 6, 7];
+  const data = JSON.parse(JSON.stringify(db)).mentors;
   return (
     <div className={cn.Banner}>
       <div className={cn.info}>
@@ -14,18 +15,20 @@ const Banner = () => {
         </div>
         <div className={cn.info_bottom}>
           <ul>
-            {array.map((el, index) => {
-              return (
-                <li
-                  style={{
-                    left: `${40 * index - index * 2}px`,
-                    zIndex: `-${index}`,
-                    backgroundImage: `url("./circleImages/people.jpg")`,
-                  }}
-                >
-                  <img src="" alt="" />
-                </li>
-              );
+            {data.map((el, index) => {
+              while (index < 6) {
+                return (
+                  <li
+                    style={{
+                      left: `${40 * index - index * 2}px`,
+                      zIndex: `-${index}`,
+                      backgroundImage: `url(${el.img[0]})`,
+                    }}
+                  >
+                    <img src="" alt="" />
+                  </li>
+                );
+              }
             })}
           </ul>
           <div className={cn.stars}>

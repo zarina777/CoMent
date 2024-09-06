@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import Container from "../../components/Container";
+import CardOfMentor from "./components/Card";
 import Category from "./components/Categories";
 import { ContextCategory } from "./components/context";
 import cn from "./style.module.scss";
@@ -40,6 +41,9 @@ const Mentors = () => {
             }}
             name="Business"
           />
+        </div>
+        <div className={cn.mentors_wrap}>
+          <CardOfMentor />
         </div>
       </Container>
     </div>
