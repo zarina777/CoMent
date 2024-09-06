@@ -5,7 +5,16 @@
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-
+  .SeeMore {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
   .heading {
     text-align: center;
     color: #ecf3f4;
@@ -26,6 +35,5 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-
   }
 }

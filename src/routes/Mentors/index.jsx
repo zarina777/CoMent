@@ -4,8 +4,10 @@ import CardOfMentor from "./components/Card";
 import Category from "./components/Categories";
 import { ContextCategory } from "./components/context";
 import cn from "./style.module.scss";
+import db from "../../../db.json";
 
 const Mentors = () => {
+  const data = JSON.parse(JSON.stringify(db)).mentors;
   const { setCategoryOn } = useContext(ContextCategory);
   return (
     <div className={cn.Mentors}>
@@ -43,7 +45,9 @@ const Mentors = () => {
           />
         </div>
         <div className={cn.mentors_wrap}>
-          <CardOfMentor />
+          {data.map((el, index) => {
+            return <CardOfMentor key={index} person={el} />;
+          })}
         </div>
       </Container>
     </div>

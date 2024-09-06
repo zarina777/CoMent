@@ -14,17 +14,20 @@ const Mentors = () => {
       </div>
       <div className={cn.cards_wrap}>
         {data.map((el, index) => {
-        
-          return (
-            <Card
-              type={el.type.toUpperCase()}
-              img={el.img[0]}
-              name={el.name + " " + el.surname}
-              about={el.description.substring(0, 60)}
-            />
-          );
+          while (index < 6) {
+            return (
+              <Card
+                key={index}
+                type={el.type.toUpperCase()}
+                img={el.img[0]}
+                name={el.name + " " + el.surname}
+                about={el.description.substring(0, 60)}
+              />
+            );
+          }
         })}
       </div>
+      <button className={cn.SeeMore}>See more</button>
     </div>
   );
 };

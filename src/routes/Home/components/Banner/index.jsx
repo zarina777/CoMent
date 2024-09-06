@@ -17,8 +17,10 @@ const Banner = () => {
           <ul>
             {data.map((el, index) => {
               while (index < 6) {
+                console.log(index);
                 return (
                   <li
+                    key={index}
                     style={{
                       left: `${40 * index - index * 2}px`,
                       zIndex: `-${index}`,
@@ -51,7 +53,7 @@ const Banner = () => {
       >
         <div className={cn.cover}>
           <div className={cn.circle}>
-            <i class="fa-solid fa-play"></i>
+            <i className="fa-solid fa-play"></i>
           </div>
           <div className={cn.video_info}>
             <p>Session Preview </p>
