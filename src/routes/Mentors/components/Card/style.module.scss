@@ -14,6 +14,7 @@
       border-radius: 10px;
       box-shadow: 1px 1px 15px 0px #00000059;
       width: 100%;
+      object-fit: cover;
     }
     .info {
       padding: 15px 0 0 15px;
@@ -84,22 +85,47 @@
       border-radius: 15px;
       padding: 10px 48px;
       font-size: 15px;
+      cursor: pointer;
+      &:hover {
+        background-color: #d9d9d991;
+      }
     }
   }
   .order {
+    padding: 10px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 28px;
     .hour {
+      border-bottom: 1px solid #000987;
+      padding: 10px 0;
       display: flex;
+      gap: 10px;
+      font-size: 17px;
+      span {
+        color: #000987;
+      }
+      p {
+        color: #282828;
+        font-weight: 700;
+        font-size: 20px;
+      }
     }
     .orderBtn {
-      margin-right: 40px;
       background-color: #10c5f8;
       color: #fff;
       border: #10c5f8;
       padding: 10px 18px;
       border-radius: 5px;
+      border: 1px solid #10c6f8c4;
+      transition: all 0.5s;
+      cursor: pointer;
+      &:hover {
+        background-color: #fff;
+        color: #10c5f8;
+        box-shadow: 1px 1px 15px 0px #10c6f837;
+      }
     }
   }
 }

@@ -8,7 +8,7 @@ import db from "../../../db.json";
 
 const Mentors = () => {
   const data = JSON.parse(JSON.stringify(db)).mentors;
-  const { setCategoryOn } = useContext(ContextCategory);
+  const { setCategoryOn, categoryOn } = useContext(ContextCategory);
   return (
     <div className={cn.Mentors}>
       <Container className={cn.Container}>
@@ -29,7 +29,7 @@ const Mentors = () => {
             onClick={() => {
               setCategoryOn("ielts");
             }}
-            name="IElTS"
+            name="IELTS"
           />
           <Category
             onClick={() => {
@@ -43,10 +43,38 @@ const Mentors = () => {
             }}
             name="Business"
           />
+          <Category
+            onClick={() => {
+              setCategoryOn("agricoach");
+            }}
+            name="Agriculture"
+          />
         </div>
         <div className={cn.mentors_wrap}>
           {data.map((el, index) => {
-            return <CardOfMentor key={index} person={el} />;
+            if (categoryOn == "all") {
+              return <CardOfMentor key={index} person={el} />;
+            } else if (categoryOn == "ielts") {
+              if (el.type == "ielts") {
+                return <CardOfMentor key={index} person={el} />;
+              }
+            } else if (categoryOn == "business") {
+              if (el.type == "business") {
+                return <CardOfMentor key={index} person={el} />;
+              }
+            } else if (categoryOn == "it") {
+              if (el.type == "it") {
+                return <CardOfMentor key={index} person={el} />;
+              }
+            } else if (categoryOn == "agricoach") {
+              if (el.type == "agricoach") {
+                return <CardOfMentor key={index} person={el} />;
+              }
+            } else if (categoryOn == "psychology") {
+              if (el.type == "agricoach") {
+                return <CardOfMentor key={index} person={el} />;
+              }
+            }
           })}
         </div>
       </Container>

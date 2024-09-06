@@ -45,8 +45,9 @@ const CardOfMentor = ({ person }) => {
       </div>
       <div className={cn.order}>
         <div className={cn.hour}>
-          <span>$50 /</span>
-          <p>1 hour</p>
+          <span>40 minutes</span>
+          <span>-</span>
+          <p>50$</p>
         </div>
         <div className={cn.orderBtn}>Order Now</div>
       </div>

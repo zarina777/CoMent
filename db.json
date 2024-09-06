@@ -1,6 +1,43 @@
 {
   "mentors": [
     {
+      "name": "Murod",
+      "surname": "Nazarov",
+      "jobs": "Businessman",
+      "works": [
+        "Murad Buildings",
+        "Franchising invest",
+        "Avalon group",
+        "ISA NABI"
+      ],
+      "description": "Murod Nazarov started his career as a program assistant at the JISA office in Uzbekistan. He worked at this position until 2003 and then established his own company. Throughout 2003–2017, Nazarov founded a number of companies in the investment and construction business.",
+      "img": ["./images/MurodNazarov2.jpg", "./images/MurodNazarov1.jpg"],
+      "type": "business"
+    },
+    {
+      "name": "Azimjon",
+      "surname": "Pulatov",
+      "jobs": "Software Engineer",
+      "works": ["Google", "Amazon", "Meta", "Super Dispatch", "Workly"],
+      "description": "Computer engineer with 7 years of experience. Currently working as a Software Engineer at Google Cloud. Worked at Amazon, Meta (Facebook) and Super Dispatch.",
+      "img": ["./images/AzimjonPulatov.jpg"],
+      "type": "it"
+    },
+    {
+      "name": "Zafar",
+      "surname": "Hoshimov",
+      "jobs": "Businessman",
+      "works": [
+        "Korzinka.uz",
+        "Korzinka Diskont",
+        "UzEX limited liability foundation",
+        "Anglesey Food brand"
+      ],
+      "description": "Uzbek entrepreneur, founder of Anglesey Food LLC, which includes Korzinka.uz, Korzinka Discount, Smart stores",
+      "img": ["./images/ZafarXoshimov.jpg", "./images/ZafarXoshimov2.jpg"],
+      "type": "business"
+    },
+    {
       "name": "Jahongir",
       "surname": "Ortiqxo'jayev",
       "jobs": "Businessman",
@@ -26,6 +63,7 @@
       "img": ["./images/OtabekNurmatov.jpg"],
       "type": "it"
     },
+
     {
       "name": "Umida",
       "surname": "Zakirova",
@@ -33,7 +71,7 @@
       "works": ["Legolang Academy", "psixoprofimarkazi"],
       "description": "Psychologist and child education expert with 12 years of experience",
       "img": ["./images/UmidaZakirova.jpg"],
-      "type": "psychologist"
+      "type": "psychology"
     },
     {
       "name": "Muhammadali",
@@ -44,15 +82,7 @@
       "img": ["./images/MuhammadAli.jpg"],
       "type": "ielts"
     },
-    {
-      "name": "Zafar",
-      "surname": "Hoshimov",
-      "jobs": "Businessman",
-      "works": ["Korzinka.uz", "Korzinka Diskont"],
-      "description": "Uzbek entrepreneur, founder of Anglesey Food LLC, which includes Korzinka.uz, Korzinka Discount, Smart stores",
-      "img": ["./images/ZafarXoshimov.jpg", "./images/ZafarXoshimov2.jpg"],
-      "type": "business"
-    },
+
     {
       "name": "Rozaliya",
       "surname": "Gabdulhakova",
@@ -60,7 +90,7 @@
       "works": ["psixologikkurslar.uz"],
       "description": "Psychologist, expert in child rearing and family relations.",
       "img": ["./images/RozaliyaGabdulhakova.jpg"],
-      "type": "psychologist"
+      "type": "psychology"
     },
     {
       "name": "Henry",
@@ -71,20 +101,7 @@
       "img": ["./images/ChunHungTseng.jpg"],
       "type": "it"
     },
-    {
-      "name": "Murod",
-      "surname": "Nazarov",
-      "jobs": "Businessman",
-      "works": [
-        "Murad Buildings",
-        "Franchising invest",
-        "Avalon group",
-        "ISA NABI"
-      ],
-      "description": "Murod Nazarov started his career as a program assistant at the JISA office in Uzbekistan. He worked at this position until 2003 and then established his own company. Throughout 2003–2017, Nazarov founded a number of companies in the investment and construction business.",
-      "img": ["./images/MurodNazarov.jpg", "./images/MurodNazarov2.jpg"],
-      "type": "business"
-    },
+
     {
       "name": "Bekzod",
       "surname": "Mirahmedov",
@@ -107,21 +124,13 @@
     {
       "name": "Dildora",
       "surname": "Atajanova",
-      "jobs": "agricoach",
+      "jobs": "Agricoach",
       "works": ["Teodora_goods.uz", "dalatek.uz"],
       "description": "Agricultural specialist, Founder of Teodora Goods LLC cofounder of Dalatek LLC",
       "img": ["./images/DildoraAtajanova.jpg"],
       "type": "agricoach"
     },
-    {
-      "name": "Azimjon",
-      "surname": "Pulatov",
-      "jobs": "Software Engineer",
-      "works": ["Google", "Amazon", "Meta"],
-      "description": "Computer engineer with 7 years of experience. Currently working as a Software Engineer at Google Cloud. Worked at Amazon, Meta (Facebook) and Super Dispatch.",
-      "img": ["./images/AzimjonPulatov.jpg"],
-      "type": "it"
-    },
+
     {
       "name": "Abdulaziz",
       "surname": "Sharopov",
