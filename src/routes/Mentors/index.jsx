@@ -71,7 +71,7 @@ const Mentors = () => {
                 return <CardOfMentor key={index} person={el} />;
               }
             } else if (categoryOn == "psychology") {
-              if (el.type == "agricoach") {
+              if (el.type == "psychology") {
                 return <CardOfMentor key={index} person={el} />;
               }
             }
