@@ -149,5 +149,62 @@
       "img": ["./images/HasanMamasaidov.jpg", "./images/HasanMamasaidov.jpg"],
       "type": "business"
     }
+  ],
+  "podcasts": [
+    {
+      "type": "Programming",
+      "time": "12 Sep, 2024",
+      "heading": "The Journey to be a programmer to FAANG companies",
+      "host": "Azimjon Pulatov",
+      "img_host": "./images/AzimjonPulatov.jpg",
+      "host_target": "Software Engineer at Google office, ex-programmer in Amazon",
+      "guest": "Diyorbek Sadullaev",
+      "img_guest": "./images/DiyorbekSadullaev.jpg",
+      "guest_target": "Frontend developer at Pinterest"
+    },
+    {
+      "type": "Business",
+      "time": "24 Oct, 2024",
+      "heading": "Secrets of business development",
+      "host": "Zafar Xoshimov",
+      "img_host": "./images/ZafarXoshimov.jpg",
+      "host_target": "CEO of korzinka.uz",
+      "guest": "Murod Nazarov",
+      "img_guest": "./images/MurodNazarov1.jpg",
+      "guest_target": "Founder of 'Murad Building'."
+    },
+    {
+      "type": "English",
+      "time": "3 Oct, 2024",
+      "heading": "How to get IELTS 9",
+      "host": "Bekzod Mirahmedov",
+      "img_host": "./images/BekzodMirahmedov.jpg",
+      "host_target": "IELTS instructor at ieltszone.uz ",
+      "guest": "Muhammadali Sodiqov",
+      "img_guest": "./images/MuhammadAli.jpg",
+      "guest_target": "Experienced English teacher"
+    },
+    {
+      "type": "Psychologist",
+      "time": "13 Nov, 2024",
+      "heading": "Importance of family psychology",
+      "host": "Umida Zakirova",
+      "img_host": "./images/UmidaZakirova.jpg",
+      "host_target": "Psychologist at 'Legolang Academy'",
+      "guest": "Rozaliya Gabdulhakova",
+      "img_guest": "./images/RozaliyaGabdulhakova.jpg",
+      "guest_target": "Expert in child rearing and family relations"
+    },
+    {
+      "type": "Programming",
+      "time": "2 Nov, 2024",
+      "heading": "A Dropbox Engineer's Journey",
+      "host": "Henry Tseng",
+      "img_host": "./images/ChunHungTseng.jpg",
+      "host_target": "DevOps Engineer at Swisscom",
+      "guest": "Otabek Nurmatov",
+      "img_guest": "./images/OtabekNurmatov.jpg",
+      "guest_target": "Software Engineer at Dropbox"
+    }
   ]
 }
